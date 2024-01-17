@@ -1,0 +1,16 @@
+[Unit]
+Description=School Iot!
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www
+ExecStart=/var/www/iot
+
+RemainAfterExit=yes
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
+

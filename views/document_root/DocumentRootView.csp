@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>温度湿度情報表示サイト</title>
+
+        <link rel="stylesheet" href="./css/graphic.css">
+        <script src="./js/graphic.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+    </head>
+
+    <body>
+        <h1>温度湿度情報表示サイト</h1>
+        <!-- JSで操作する場所 (温度のみ) -->
+        <div class="tem_graphic"></div>
+        <!-- JSで操作する場所 (湿度のみ) -->
+        <div class="hum_graphic"></div>
+        <!-- JSで操作する場所 (全体) -->
+        <div class="all_graphic"></div>
+
+    </body>
+</html>

@@ -1,0 +1,10 @@
+# Database Hostname
+DB_HOSTNAME=localhost
+# Database Port Number
+DB_PORT=5432
+# Database Username
+DB_USERNAME=school
+# Database User Password
+DB_PASSWORD=password
+# Database Name
+DB_DATABASE=school
